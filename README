@@ -33,7 +33,7 @@ THEN I am taken to the corresponding section of the README
 ```
 Clone The repository 
 Open a Terminal in the folder index.js is located
-Type in npm install. This will set up all the packages you need.
+Type in npm install
 Type in node index.js
 Answer prompt in the command line and click enter to move to next prompt
 ```
@@ -41,8 +41,6 @@ Answer prompt in the command line and click enter to move to next prompt
 ```
 A file will be created for a license if If you chose one of the LICENSEs. 
 ```
-##Licence
-MIT
 
 ## Walkthrough Video
 

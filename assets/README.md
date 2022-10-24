@@ -1,4 +1,4 @@
-# Generate README File
+# hbfa
       
   #### Table of Contents
   1. [Project Description](#project-description)
@@ -9,17 +9,17 @@
   6. [License](#license)
   7. [Questions](#questions)
   ## Project Description
-  * Using nodejs to generate readme file // use a variable dot notation. 
+  * hv // use a variable dot notation. 
   ## Installation Instructions
-  * go to terminal, write node index.js then answer the prompted  questions
+  * hvak
   ## Usage Information
   * undefined
   ## Contributing
   * undefined
   ## Test Instructions
-  * no
+  * hvdk
   ## License
   * licensed under the 
   ## Questions
-  * For any other questions, please email me at filalibria@yahoo.fr
+  * For any other questions, please email me at bria@gmail.com
   * My Github is [briabr](http://github.com/briabr)
