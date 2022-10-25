@@ -1,4 +1,5 @@
-# hbfa
+# README
+    [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
       
   #### Table of Contents
   1. [Project Description](#project-description)
@@ -9,17 +10,17 @@
   6. [License](#license)
   7. [Questions](#questions)
   ## Project Description
-  * hv // use a variable dot notation. 
+  * Command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. // use a variable dot notation. 
   ## Installation Instructions
-  * hvak
+  * Clone The repository 
   ## Usage Information
   * undefined
   ## Contributing
   * undefined
   ## Test Instructions
-  * hvdk
+  * NO
   ## License
   * licensed under the 
   ## Questions
-  * For any other questions, please email me at bria@gmail.com
+  * For any other questions, please email me at filalibria@yahoo.fr
   * My Github is [briabr](http://github.com/briabr)
