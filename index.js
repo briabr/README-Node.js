@@ -41,7 +41,7 @@ function init() {function promptUser() {
             message: "is any test is written, please provide test instructions if applicable"
           },
           {
-            type: "checkbox",
+            type: "list",
             message: "License?",
             name: "license",
             choices: [
@@ -64,8 +64,9 @@ function init() {function promptUser() {
 
 // TODO: Create a function to initialize app. 
 function generateREADME(response) {
+  console.log(response)
     return `# ${response.projectTitle}
-    ${renderLicenseBadge(response.license)}
+${renderLicenseBadge(response.license)}
       
   #### Table of Contents
   1. [Project Description](#project-description)
@@ -113,8 +114,16 @@ promptUser()
 init();
 
 function renderLicenseBadge(license) {
-  if (license === 'MIT') {
-    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
-  } else (license === 'GNU General Public License v3.0') 
-    return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
-  }
+  if (license === "[MIT License](LICENSE.txt)") {
+    return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
+  } else license === "[GNU GPLv3 License](COPYING.txt)";
+  return `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`;
+}
+
+
+// function renderLicenseBadge(license) {
+//   if (license === "MIT") {
+//     return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
+//   } else license === "GNU General Public License v3.0";
+//   return `![Github License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`;
+// }

@@ -21,13 +21,4 @@ function generateMarkdown(response) {
   return `# ${response.title}
 `;
 }
-function generateMarkdown(data) {
-
-
-  return `# ${data.title}
-  ## license 
-  ${generateLicenseBadge(license)} //possible problem #2?
-  '
-  }
-
 module.exports = generateMarkdown;
